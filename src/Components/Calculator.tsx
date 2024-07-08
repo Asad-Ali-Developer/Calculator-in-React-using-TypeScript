@@ -18,12 +18,6 @@ const CalculatorWrapper = styled.div`
   border: 1px solid #444344;
 `;
 
-const Heading = styled.div`
-  color: #2f2f2f;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-`
 
 
 const Calculator: React.FC = () => {
