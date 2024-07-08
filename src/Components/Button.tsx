@@ -14,9 +14,9 @@ const StyledButton = styled.button<{ operator?: boolean }>`
   font-size: 1.5em;
   border: none;
   margin: 5px;
-  border-radius: 5px;
-  background: ${(props) => (props.operator ? '#f1a33c' : '#e0e0e0')};
-  color: ${(props) => (props.operator ? '#fff' : '#000')};
+  border-radius: 50%;
+  background: ${(props) => (props.operator ? '#f1a33c' : '#2f2f2f')};
+  color: ${(props) => (props.operator ? '#fff' : '#fff')};
   cursor: pointer;
   font-weight: 600;
 `;

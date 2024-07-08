@@ -6,12 +6,13 @@ import MyNavbar from './Components/Navbar';
 const App: React.FC = () => {
   return (
     <>
+    
       <MyNavbar />
-      <div className="calculator">
+
         <div className="App">
           <Calculator />
         </div>
-      </div>
+
     </>
   );
 };

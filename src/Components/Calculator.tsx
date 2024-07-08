@@ -8,17 +8,18 @@ import Button from './Button';
 const CalculatorWrapper = styled.div`
   width: 350px;
   margin: 50px 0;
-  padding: 20px;
+  padding: 30px 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  background: #121212;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 1px solid #444344;
 `;
 
 const Heading = styled.div`
-  background-color: #fafafa;
+  color: #2f2f2f;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -53,7 +54,7 @@ const Calculator: React.FC = () => {
 
   return (
     <CalculatorWrapper>
-      <Heading>Calculator in React TS</Heading>
+      {/* <Heading>Calculator in React TS</Heading> */}
       <Display value={displayValue} />
 
       <div>
